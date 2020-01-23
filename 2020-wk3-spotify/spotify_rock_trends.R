@@ -27,7 +27,7 @@ spotify_songs %>%
   ggplot(aes(x = year, y = value, 
              color = ifelse(name %in% c('acousticness', 'energy', 'loudness'), "highlight", "don't highlight"))) +
   geom_smooth(se = FALSE) +
-  geom_point(size = 4, alpha = 0.8, fill = "white") +
+  geom_point(size = 2, alpha = 0.8, fill = "white") +
   scale_color_manual(values = c("grey", "darkorange")) +
   labs(title = "Rock Songs Getting Louder, Heavier and More Energetic Over Time",
        subtitle = "Rock songs from 1960-2020 from Spotify Playlist Data",
@@ -54,5 +54,5 @@ spotify_songs %>%
     plot.caption = element_text(size = 12, color = "slategrey")
   )
 
-ggsave('spotify_rock_trends.png', dpi = 150)
+ggsave('spotify_rock_trends.png', dpi = 300, height = 4, width = 6, units = "in")
 
