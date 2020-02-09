@@ -12,3 +12,7 @@ A repository to house any work done on datasets from #rstats Tidy Tuesday
 ## Spotify Rock Trends
 
 ![alt text](https://github.com/jasonsk86/tidy-tuesday/blob/master/2020-wk3-spotify/spotify_rock_trends.png)
+
+## NFL - Last 5 Super Bowl Winning Teams
+![alt_text](https://github.com/jasonsk86/tidy-tuesday/blob/master/2020-02-04-nfl/sb_last_5.JPG)
+
